@@ -1,0 +1,199 @@
+{
+	"QMainWindow":[
+		{
+			"tittle":"CARLUX",
+			"icon":":/image/1.png",
+			"frameless": true,
+			"transluscentBg": true,
+			"sizeGrip": "sizeGrip",
+			"navigation":[
+				{
+					"minimize":"minimizeBtn",
+					"close": "closeBtn",
+					"restore":[
+						{
+							"buttonName": "restoreBtn",
+							"normalIcon": ":/icons/icons/square.svg",
+							"maximizedIcon": ":/icons/icons/copy.svg"
+						}
+					]
+				}
+			]
+		}
+	],
+	"QCustomSlideMenu": [
+		{
+			"name":"leftMenuContainer",
+			"defaultSize": [
+				{
+					"width": 45,
+					"height": "parent"
+				}],
+			"collapsedSize": [
+				{
+					"width": 45,
+					"height": "parent"
+				}],
+			"expandedSize": [
+				{
+					"width": 200,
+					"height": "parent"
+				}],
+			"toggleButton": [
+				{
+					"buttonName": "menuBtn",
+					"icons": [
+						{
+							"whenMenuIsCollapsed": ":/icons/icons/align-left.svg",
+							"whenMenuIsExpanded": ":/icons/icons/chevron-left.svg"
+						}]
+				}],
+			"menuTransitionAnimation": [
+					{
+					"animationDuration": 30,
+					"animationEasingCurve": "Linear"
+				}]
+		},
+		{
+			"name":"centerMenuContainer",
+			"defaultSize": [
+				{
+					"width": 0,
+					"height": "parent"
+				}],
+			"collapsedSize": [
+				{
+					"width": 0,
+					"height": "parent"
+				}],
+			"expandedSize": [
+				{
+					"width": 200,
+					"height": "parent"
+				}],
+			"menuTransitionAnimation": [
+					{
+					"animationDuration": 30,
+					"animationEasingCurve": "Linear"
+				}]
+		},
+		{
+			"name":"rightMenuContainer",
+			"defaultSize": [
+				{
+					"width": 0,
+					"height": "parent"
+				}],
+			"collapsedSize": [
+				{
+					"width": 0,
+					"height": "auto"
+				}],
+			"expandedSize": [
+				{
+					"width": 200,
+					"height": "auto"
+				}],
+			"menuTransitionAnimation": [
+					{
+					"animationDuration": 30,
+					"animationEasingCurve": "Linear"
+				}]
+		},
+		{
+			"name":"popupNotificationContainer",
+			"defaultSize": [
+				{
+					"width": 0,
+					"height": "parent"
+				}],
+			"collapsedSize": [
+				{
+					"width": 0,
+					"height": "auto"
+				}],
+			"expandedSize": [
+				{
+					"width": 500,
+					"height": 120
+				}],
+			"menuTransitionAnimation": [
+					{
+					"animationDuration": 30,
+					"animationEasingCurve": "Linear"
+				}],
+			"floatPosition": [
+				{
+					"relativeTo": "centralwidget",
+					"position": "center-center",
+					"shadow":[
+						{
+							"color": "#000",
+							"blurRadius": 20,
+							"xOffset": 0,
+							"yOffset": 0
+						}
+					]
+				}
+			],
+			"toggleButton": [
+				{
+					"buttonName": "notificationBtn"
+				}]
+	}],
+	"QStackedWidget":[
+		{
+			"name":"mainPages",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"homeBtn": "page_6",
+							"dataBtn": "page_7",
+							"topDealersBtn":"page_7",
+							"reportBtn": "page_8"
+						}
+					]
+				}
+			]
+
+		},
+		{
+			"name":"centerMenuPages",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"settingBtn": "page",
+							"infoBtn": "page_2",
+							"helpBtn": "page_3"
+						}
+					]
+				}
+			]
+
+		},
+		{
+			"name":"rightMenuPages",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"profileMenuBtn": "page_4",
+							"moreMenuBtn": "page_5"
+						}
+					]
+				}
+			]
+
+		}
+	],
+	"QPushButtonGroup": [{
+		"Buttons": ["homeBtn","dataBtn","reportBtn"],
+		"Style":[
+			{
+				"Active": "background-color: #1f232a;",
+				"NotActive": ""
+			}]
+	}]
+}
