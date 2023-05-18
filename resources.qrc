@@ -1,5 +1,12 @@
 <RCC>
   <qresource prefix="icons">
+    <file>icons/reshot-icon-rent-car-YS3BFDX8GZ.svg</file>
+    <file>icons/reshot-icon-image-SMY6UQ8ZHE.svg</file>
+    <file>icons/reshot-icon-availability-PFZQJKSWYU.svg</file>
+    <file>icons/reshot-icon-transmission-NRTH8ZMKP2.svg</file>
+    <file>icons/reshot-icon-sports-car-Y8G5KZ2UXT.svg</file>
+    <file>icons/reshot-icon-car-gas-fuel-BAK39JM85F.svg</file>
+    <file>icons/reshot-icon-car-seat-GXBMU53YV8.svg</file>
     <file>kisspng-circle-area-angle-point-black-and-white-round-frame-5a7b862e56f5a6.5838409715180447183562.png</file>
     <file>icons/activity.svg</file>
     <file>icons/airplay.svg</file>
